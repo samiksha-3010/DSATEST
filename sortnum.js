@@ -12,22 +12,21 @@
     //   const sortedArray = shortNumber(numbersArray);
     //   console.log(sortedArray); // Output: [1, 2, 3, 4, 5]
 
-    const numbersarr = [90,30,25,46,78,12]
+    // const numbersarr = [90,30,25,46,78,12]
 
-      function shortNum(numbers) {
+    //   function shortNum(numbers) {
 
-        const sortedNumbers = numbers.slice().sort((a, b) => a - b);
+    //     const sortedNumbers = numbers.slice().sort((a, b) => a - b);
       
-        return sortedNumbers;
-      }
-      
-    
-    
-      const sortedArray = shortNum(numbersarr);
-      console.log(sortedArray); 
+    //     return sortedNumbers;
+    //   }
+
+      // const sortedArray = shortNum(numbersarr);
+      // console.log(sortedArray); 
       
       // Output: [ 12, 25, 30, 46, 78, 90 ]
 
+     
 
 
    

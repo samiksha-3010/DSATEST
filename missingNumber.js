@@ -1,4 +1,21 @@
-[2, 4, 1, 3, 6, 7, 8];
-function findMissingNumber (array){
-var i = array.length = +1
+// missing numbers
+
+let num =[2,3,4,5,6,7,8];
+function missingNumber(num){
+    for (let i=1; i<num.length; i++){
+        if(!num.includes(i)){
+        return i;
+
+        }
+    }
+    return i;
 }
+
+console.log(missingNumber(num));
+
+
+
+
+
+
+
