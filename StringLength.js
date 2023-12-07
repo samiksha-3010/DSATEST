@@ -9,3 +9,4 @@ function calculateStringLength(str) {
   const myString = "Hello, World!";
   const stringLength = calculateStringLength(myString);
   console.log("Length of the string:", stringLength);
+
