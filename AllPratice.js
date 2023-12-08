@@ -103,6 +103,41 @@ const removeDuplicate = (Array)=>{
 return newArray
 }
 console.log(removeDuplicate([1,2,3,4,5,6,7,8,9,9,5,6]),"")
+
+
+// Sum Method 
+
+let total = [12,34,56,79,12]
+
+let sum = 0;
+
+for(let i=0; i< total.length; i++){
+    sum += total[i]
+}
+console.log(sum)
+
+// odd Number 
+// Even Number  
+
+// var array = [23, 56, 78, 96, 34, 32, 12];
+// function oddNum(odd){
+//     let newOdd =[];
+//     for (let i = 0; i  < odd.lenght; i++) {
+//         if (odd[i] % 2 !=0){
+//             console.log (odd[i]);
+//             newOdd.push(odd[i]);
+//         }
+
+//     }  
+//          return newOdd.length;
+
+//     }
+//     console.log (oddNum(array));
+
+
+
+
+
   
 
 

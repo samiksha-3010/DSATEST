@@ -23,7 +23,7 @@
     if(array[i] !== array[i+1])
     newArray.push(array[i])
 return newArray
-}
+} 
 console.log(removeDuplicate([1,2,3,2,4]),"");
 
 
