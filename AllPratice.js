@@ -51,14 +51,7 @@ console.log(SortArray)
 
 // reverse string Method
 
-function reverseString(inputString) {
-      return inputString.split('').reverse().join('');
-  }
-  
 
-  let originalString = "Hello, World!";
-  let reversedString = reverseString(originalString);
-  console.log(reversedString);
 
 
 //   reverse Number Method
